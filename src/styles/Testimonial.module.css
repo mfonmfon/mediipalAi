@@ -1,0 +1,93 @@
+/* Container */
+.testimonialContainer {
+  background: #0d1b2a;
+  color: white;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+/* Heading */
+.testimonialHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.testimonialHeading span {
+  color: #4ade80; /* Green Highlight */
+}
+
+/* Sub Text */
+.testimonialSubText {
+  font-size: 1.2rem;
+  color: #a1a1aa;
+  margin-top: 10px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Testimonial Grid */
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Testimonial Card */
+.testimonialCard {
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialCard:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #4ade80;
+}
+
+.profileName {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.profileRole {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+}
+
+/* Testimonial Text */
+.testimonialText {
+  font-size: 1rem;
+  color: #e5e7eb;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonialHeading {
+    font-size: 2rem;
+  }
+}

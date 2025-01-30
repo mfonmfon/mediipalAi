@@ -1,0 +1,167 @@
+/* Footer Container */
+.footerContainer {
+  background: #0d1b2a;
+  color: white;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+/* Newsletter Box */
+.newsletterBox {
+  background: #162a3a;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(72, 187, 120, 0.4);
+}
+
+.newsletterTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.newsletterTitle span {
+  color: #4ade80; /* Green Highlight */
+}
+
+.newsletterText {
+  font-size: 1rem;
+  color: #a1a1aa;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.inputField {
+  padding: 12px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  width: 60%;
+  font-size: 1rem;
+  background: #1f3547;
+  color: white;
+}
+
+.subscribeButton {
+  padding: 12px 20px;
+  border: none;
+  background: #4ade80;
+  color: black;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribeButton:hover {
+  background: #38b669;
+}
+
+/* Footer Bottom Section */
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+/* Footer Brand */
+.footerBrand {
+  max-width: 250px;
+  text-align: left;
+}
+
+.brandTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.brandText {
+  font-size: 1rem;
+  color: #a1a1aa;
+  margin-top: 10px;
+}
+
+/* Footer Links */
+.footerLinks {
+  display: flex;
+  gap: 40px;
+}
+
+.linkColumn h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.linkColumn a {
+  display: block;
+  color: #a1a1aa;
+  text-decoration: none;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.linkColumn a:hover {
+  color: #4ade80;
+}
+
+/* Contact Section */
+.contactInfo {
+  text-align: left;
+}
+
+.contactInfo p {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #a1a1aa;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.socialIcons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socialIcons i:hover {
+  color: #4ade80;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .inputContainer {
+    flex-direction: column;
+  }
+
+  .inputField {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .subscribeButton {
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

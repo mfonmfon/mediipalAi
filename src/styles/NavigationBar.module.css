@@ -1,0 +1,101 @@
+.navigationBarContainer{
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center
+}
+.navBarLogoTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: #fff;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
+}
+.navBar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar ul li{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.navBar ul li a{
+  text-decoration: none;
+  color: #333;
+}
+.mobileMenu{
+  display: none;
+}
+
+.secondLink{
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+  gap: 20px;
+}
+.cartButton{
+  border: 1px transparent;
+  border-radius: 5px;
+  /* background-color: rgb(3, 25, 74);  */
+  /* color: #fff;  */
+  width: 10%;
+}
+.loginWayButton .signInButton{
+ padding: 5px 10px;
+ border: 1px transparent;
+ border-radius: 5px;
+ background-color: rgb(3, 25, 74);
+}
+.signInButton{
+  color: #fff;
+}
+.registerButton .createAccountButton{
+  padding: 5px 10px;
+ border: 1px transparent;
+ border-radius: 5px;
+ background-color: rgb(3, 25, 74);
+}
+.createAccountButton{
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .navigationBarContainer{
+    /* display: none; */
+  }
+  .mobileMenu{
+    display: block;
+  }
+  .navBar{
+    flex-direction: row;
+    /* height: 100vh; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+    width: 100%;
+    overflow-y: auto;
+  }
+  .navBar ul li{
+    display: none;
+  }
+
+}

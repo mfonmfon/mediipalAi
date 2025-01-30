@@ -1,0 +1,102 @@
+/* Hero Section Container */
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 90vh;
+  padding: 50px 10%;
+  background: linear-gradient(180deg, #071d34, #0d2a4a);
+  color: white;
+}
+
+/* Left Content */
+.heroContent {
+  max-width: 50%;
+}
+
+/* Heading */
+.heroHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.heroHeading span {
+  color: #4ade80; /* Green Highlight */
+}
+
+/* Text */
+.heroText {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #e5e7eb;
+}
+
+/* CTA Input & Button */
+.heroCTA {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.heroInput {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+  outline: none;
+}
+
+.heroButton {
+  background: #4ade80;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.heroButton:hover {
+  background: #22c55e;
+}
+
+/* Trusted Logos */
+.trustLogos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.trustLogos img {
+  height: 30px;
+}
+
+/* Right Image */
+.heroImage {
+  max-width: 50%;
+}
+
+.heroImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroContent, .heroImage {
+    max-width: 100%;
+  }
+
+  .heroCTA {
+    justify-content: center;
+  }
+}
