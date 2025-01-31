@@ -1,5 +1,6 @@
 import Home from "../pages/home/Home.jsx"
 import Features from "../pages/features/Features.jsx"
+import DoctorOnboarding from "../auth/signup/doctoronboarding/DoctorOnboarding.jsx"
 
 const MEDRECS_AI_WEBSITE_ROUTES = [
   {
@@ -27,6 +28,14 @@ const MEDRECS_AI_WEBSITE_ROUTES = [
   {
     path: "/contact",
     element: <Features/>
+  },
+  {
+    path: "/login",
+    element: <Features/>
+  },
+  {
+    path: "/signup",
+    element:<DoctorOnboarding/>
   },
   
 ]

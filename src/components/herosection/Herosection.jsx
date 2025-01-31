@@ -10,7 +10,8 @@ const HeroSection = () => {
           Get More Clients By Scaling <span>Your Cold Outreach</span>
         </h1>
         <p className={styles.heroText}>
-          Accelerate team success efficiently with our solution. Streamline workflows, automate processes, and optimize collaboration.
+          Accelerate team success efficiently with our solution. Streamline workflows, 
+          automate processes, and optimize collaboration.
         </p>
 
         {/* CTA Section */}

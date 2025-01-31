@@ -23,10 +23,10 @@ const NavigationBar =()=>{
                     <div  className={NavigationBarStyles.secondLink}>
                         <ShoppingCartIcon className={NavigationBarStyles.cartButton}/>
                         <div className={NavigationBarStyles.loginWayButton}>
-                        <button className={NavigationBarStyles.signInButton}>sign In</button>
+                        <button onClick={()=>{window.location.pathname="/login"}} className={NavigationBarStyles.signInButton}>sign In</button>
                         </div>
                         <div className={NavigationBarStyles.registerButton}>
-                        <button className={NavigationBarStyles.createAccountButton}>Create Account</button>
+                        <button onClick={()=>{window.location.pathname="/signup"}} className={NavigationBarStyles.createAccountButton}>Create Account</button>
                         </div>
                     </div>
 

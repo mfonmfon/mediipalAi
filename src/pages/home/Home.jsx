@@ -11,7 +11,6 @@ const Home =()=>{
     <Herosection/>
     <TestimonialSection/>
     <NewsletterFooter/>
-
     </>
   )
 }
